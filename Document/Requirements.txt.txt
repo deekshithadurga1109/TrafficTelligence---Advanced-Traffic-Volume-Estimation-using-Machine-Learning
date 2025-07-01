@@ -1,0 +1,20 @@
+# === Web Framework ===
+Flask==2.3.3                # For running the web application
+jinja2==3.1.3               # Flask's templating engine for rendering HTML
+
+# === Core Libraries ===
+numpy==1.26.4               # For numerical operations and arrays
+pandas==2.2.2               # For data manipulation and DataFrame support
+
+# === Machine Learning ===
+scikit-learn==1.4.2         # For model training, evaluation, preprocessing (RandomForest, StandardScaler, etc.)
+
+# === Model Serialization ===
+joblib==1.4.2               # Alternative to pickle, used to save/load models and transformers
+pickle-mixin==1.0.2         # Used for object serialization (though native `pickle` is built-in)
+
+# === Data Visualization (if needed) ===
+matplotlib==3.8.4           # For visualizing data (heatmaps, graphs if applicable)
+
+# === Optional: WSGI Server for Production (not needed in dev) ===
+# gunicorn==21.2.0          # Used for deploying Flask in production (optional)
